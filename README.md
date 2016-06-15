@@ -1,6 +1,6 @@
 # Synopsis 
 
-Bug Blast is a course-related project assigned in an undergraduate computer science <a href="http://www.registrar.ucla.edu/schedule/subdet.aspx?srs=187096200&term=14W&session=" target="_blank" title="COM SCI 32">class</a>, about data strutures, algorithms, and object-oriented programming, at UCLA. It is a 2D game that features the player attempting to exterminate enemy bugs by dropping bug sprays while trying to avoid being infested. 
+Bug Blast is a course-related project assigned in an undergraduate computer science <a href="http://www.bruinwalk.com/professors/carey-nachenberg/com-sci-32/" target="_blank" title="COM SCI 32">class</a>, about data strutures, algorithms, and object-oriented programming, at UCLA. It is a 2D game that features the player attempting to exterminate enemy bugs by dropping bug sprays while trying to avoid being infested. 
 
 ![screenshot](hub/bug_blast_animated.gif "Bug Blast")
 
