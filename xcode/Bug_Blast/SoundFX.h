@@ -4,15 +4,16 @@
 #include <string>
 
 #include "irrklang/irrKlang.h"
-#pragma comment(lib, "irrKlang.lib") // link with irrKlang.dll
 #include <iostream>
 
 class SoundFXController
 {
   public:
 
-    void playClip(std::string soundFile)
+    void playClip(std::string soundFile, std::string dir = "")
     {
+        if (dir != "")
+            soundFile = dir + '/' + soundFile;
         if (m_engine != NULL)
             m_engine->play2D(soundFile.c_str(), false);
     }

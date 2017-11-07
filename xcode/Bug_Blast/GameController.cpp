@@ -178,7 +178,7 @@ void GameController::playSound(int soundID)
 {
 	SoundMapType::const_iterator p = m_soundMap.find(soundID);
 	if (p != m_soundMap.end())
-		SoundFX().playClip(p->second);
+		SoundFX().playClip(p->second, "sound");
 }
 
 void GameController::doSomething()
@@ -190,7 +190,7 @@ void GameController::doSomething()
 		case not_applicable:
 			break;
 		case welcome:
-			SoundFX().playClip("theme.wav");
+			SoundFX().playClip("theme.wav", "sound");
 			m_mainMessage = "Welcome to Bug Blast!";
 			m_secondMessage = "Press Enter to begin play...";
 			m_gameState = prompt;
